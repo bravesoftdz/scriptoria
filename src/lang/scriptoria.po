@@ -1,0 +1,539 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: taboutbox.caption
+msgctxt "TABOUTBOX.CAPTION"
+msgid "AboutBox"
+msgstr ""
+
+#: taboutbox.lbcopyright.caption
+msgid "lbCopyright"
+msgstr ""
+
+#: taboutbox.lbhomepage.caption
+msgid "lbHomePage"
+msgstr ""
+
+#: taboutbox.lbprogramtitle.caption
+msgid "lbProgramTitle"
+msgstr ""
+
+#: taboutbox.lbprogramversion.caption
+msgid "lbProgramVersion"
+msgstr ""
+
+#: taboutbox.tsabout.caption
+msgctxt "TABOUTBOX.TSABOUT.CAPTION"
+msgid "About"
+msgstr ""
+
+#: taboutbox.tscredits.caption
+msgctxt "TABOUTBOX.TSCREDITS.CAPTION"
+msgid "Credits"
+msgstr ""
+
+#: taboutbox.tshistory.caption
+msgctxt "TABOUTBOX.TSHISTORY.CAPTION"
+msgid "History"
+msgstr ""
+
+#: taboutbox.tsinfo.caption
+msgctxt "TABOUTBOX.TSINFO.CAPTION"
+msgid "Info"
+msgstr ""
+
+#: taboutbox.tslicense.caption
+msgctxt "TABOUTBOX.TSLICENSE.CAPTION"
+msgid "License"
+msgstr ""
+
+#: tenhanceimageform.btcancel.caption
+msgctxt "TENHANCEIMAGEFORM.BTCANCEL.CAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: tenhanceimageform.btok.caption
+msgid "OK"
+msgstr ""
+
+#: tenhanceimageform.btreset.caption
+msgid "Reset"
+msgstr ""
+
+#: tenhanceimageform.caption
+msgid "Enhance Image"
+msgstr ""
+
+#: tenhanceimageform.lbblue.caption
+msgid "Blue"
+msgstr ""
+
+#: tenhanceimageform.lbbrightness.caption
+msgid "Brightness:"
+msgstr ""
+
+#: tenhanceimageform.lbcolorlevels.caption
+msgid "Color Levels:"
+msgstr ""
+
+#: tenhanceimageform.lbcontrast.caption
+msgid "Contrast:"
+msgstr ""
+
+#: tenhanceimageform.lbcyan.caption
+msgid "Cyan"
+msgstr ""
+
+#: tenhanceimageform.lbgreen.caption
+msgid "Green"
+msgstr ""
+
+#: tenhanceimageform.lbmagenta.caption
+msgid "Magenta"
+msgstr ""
+
+#: tenhanceimageform.lbred.caption
+msgid "Red"
+msgstr ""
+
+#: tenhanceimageform.lbyellow.caption
+msgid "Yellow"
+msgstr ""
+
+#: tenhanceimageform.tbbightnesscontrast.caption
+msgid "tbBightnessContrast"
+msgstr ""
+
+#: tenhanceimageform.tbcolorbalance.caption
+msgid "tbColorbalance"
+msgstr ""
+
+#: tfmconfirmreplacedialog.btcancel.caption
+msgctxt "tfmconfirmreplacedialog.btcancel.caption"
+msgid "Cancel"
+msgstr ""
+
+#: tfmconfirmreplacedialog.btno.caption
+msgid "&No"
+msgstr ""
+
+#: tfmconfirmreplacedialog.btyes.caption
+msgid "&Yes"
+msgstr ""
+
+#: tfmconfirmreplacedialog.btyestoall.caption
+msgid "Yes to &all"
+msgstr ""
+
+#: tfmconfirmreplacedialog.caption
+msgid "Confirm replace"
+msgstr ""
+
+#: tfmmain.acbrightnesscontrast.caption
+msgid "Brightness/Contrast..."
+msgstr ""
+
+#: tfmmain.acbrightnesscontrast.hint
+msgid "Change brightness or contrast"
+msgstr ""
+
+#: tfmmain.accolorbalance.caption
+msgid "Color Balance..."
+msgstr ""
+
+#: tfmmain.accolorbalance.hint
+msgid "Adjust color balance"
+msgstr ""
+
+#: tfmmain.aceditcopy.caption
+msgid "&Copy"
+msgstr ""
+
+#: tfmmain.aceditcopy.hint
+msgid "Copy selected text to clipboard"
+msgstr ""
+
+#: tfmmain.aceditcut.caption
+msgid "Cu&t"
+msgstr ""
+
+#: tfmmain.aceditcut.hint
+msgid "Cut selected text to clipboard"
+msgstr ""
+
+#: tfmmain.aceditdelete.caption
+msgid "&Delete"
+msgstr ""
+
+#: tfmmain.aceditdelete.hint
+msgid "Delete selected text"
+msgstr ""
+
+#: tfmmain.aceditpaste.caption
+msgid "&Paste"
+msgstr ""
+
+#: tfmmain.aceditpaste.hint
+msgid "Paste from clipboard"
+msgstr ""
+
+#: tfmmain.aceditredo.caption
+msgid "&Redo"
+msgstr ""
+
+#: tfmmain.aceditredo.hint
+msgid "Redo"
+msgstr ""
+
+#: tfmmain.aceditselectall.caption
+msgid "Select &All"
+msgstr ""
+
+#: tfmmain.aceditselectall.hint
+msgid "Select All"
+msgstr ""
+
+#: tfmmain.aceditundo.caption
+msgid "&Undo"
+msgstr ""
+
+#: tfmmain.aceditundo.hint
+msgid "Undo the last action"
+msgstr ""
+
+#: tfmmain.acfileclose.caption
+msgid "&Close"
+msgstr ""
+
+#: tfmmain.acfileexit.caption
+msgid "E&xit"
+msgstr ""
+
+#: tfmmain.acfileexit.hint
+msgid "Exit from the program"
+msgstr ""
+
+#: tfmmain.acfilenew.caption
+msgid "New..."
+msgstr ""
+
+#: tfmmain.acfileopen.caption
+msgid "Open..."
+msgstr ""
+
+#: tfmmain.acfileopen.hint
+msgid "Open an image to transcribe"
+msgstr ""
+
+#: tfmmain.acfilesave.caption
+msgid "&Save"
+msgstr ""
+
+#: tfmmain.acfilesaveas.caption
+msgid "Save &As..."
+msgstr ""
+
+#: tfmmain.acfilesaveas.hint
+msgid "Save As"
+msgstr ""
+
+#: tfmmain.achelpabout.caption
+msgctxt "TFMMAIN.ACHELPABOUT.CAPTION"
+msgid "About"
+msgstr ""
+
+#: tfmmain.achelpabout.hint
+msgid "Show About Dialog"
+msgstr ""
+
+#: tfmmain.achelphelp.caption
+msgctxt "TFMMAIN.ACHELPHELP.CAPTION"
+msgid "Help"
+msgstr ""
+
+#: tfmmain.achelpvisithomepage.caption
+msgctxt "TFMMAIN.ACHELPVISITHOMEPAGE.CAPTION"
+msgid "Visit the HomePage..."
+msgstr ""
+
+#: tfmmain.achelpvisithomepage.hint
+msgid "Open the program website"
+msgstr ""
+
+#: tfmmain.acoptionsimagebottom.caption
+msgid "Bottom"
+msgstr ""
+
+#: tfmmain.acoptionsimagebottom.hint
+msgid "Display the image on bottom"
+msgstr ""
+
+#: tfmmain.acoptionsimageleft.caption
+msgid "Left"
+msgstr ""
+
+#: tfmmain.acoptionsimageleft.hint
+msgid "Display the image on the left"
+msgstr ""
+
+#: tfmmain.acoptionsimageright.caption
+msgid "Right"
+msgstr ""
+
+#: tfmmain.acoptionsimageright.hint
+msgid "Display the image on the right"
+msgstr ""
+
+#: tfmmain.acoptionsimagetop.caption
+msgid "Top"
+msgstr ""
+
+#: tfmmain.acoptionsimagetop.hint
+msgid "Display the image on top"
+msgstr ""
+
+#: tfmmain.acshowfontdialog.caption
+msgid "Change Font..."
+msgstr ""
+
+#: tfmmain.acshowfontdialog.hint
+msgid "Change Font"
+msgstr ""
+
+#: tfmmain.actextfind.caption
+msgid "Find..."
+msgstr ""
+
+#: tfmmain.actextfind.hint
+msgid "Find"
+msgstr ""
+
+#: tfmmain.actextfindnext.caption
+msgid "Find Next"
+msgstr ""
+
+#: tfmmain.actextfindnext.hint
+msgid "Find next"
+msgstr ""
+
+#: tfmmain.actextfindprevious.caption
+msgid "Find Previous"
+msgstr ""
+
+#: tfmmain.actextfindprevious.hint
+msgid "Finc Previous"
+msgstr ""
+
+#: tfmmain.actextreplace.caption
+msgid "Replace..."
+msgstr ""
+
+#: tfmmain.actextreplace.hint
+msgid "Replace"
+msgstr ""
+
+#: tfmmain.aczoomin.caption
+msgctxt "tfmmain.aczoomin.caption"
+msgid "Zoom In"
+msgstr ""
+
+#: tfmmain.aczoomin.hint
+msgid "Enlarge the image"
+msgstr ""
+
+#: tfmmain.aczoomout.caption
+msgid "Zoom Out"
+msgstr ""
+
+#: tfmmain.aczoomout.hint
+msgid "Shrink the image"
+msgstr ""
+
+#: tfmmain.caption
+msgctxt "TFMMAIN.CAPTION"
+msgid "fmMain"
+msgstr ""
+
+#: tfmmain.mhelp.caption
+msgctxt "TFMMAIN.MHELP.CAPTION"
+msgid "Help"
+msgstr ""
+
+#: tfmmain.mifile.caption
+msgid "File"
+msgstr ""
+
+#: tfmmain.mifilesep1.caption
+msgctxt "TFMMAIN.MIFILESEP1.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.mifilesep2.caption
+msgctxt "TFMMAIN.MIFILESEP2.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.mihelpse1.caption
+msgctxt "TFMMAIN.MIHELPSE1.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.miimage.caption
+msgid "Image"
+msgstr ""
+
+#: tfmmain.miimagesep1.caption
+msgctxt "TFMMAIN.MIIMAGESEP1.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.mioptions.caption
+msgid "Options"
+msgstr ""
+
+#: tfmmain.mioptionsimageposition.caption
+msgid "Image Position"
+msgstr ""
+
+#: tfmmain.mitext.caption
+msgid "Text"
+msgstr ""
+
+#: tfmmain.mitextsep1.caption
+msgctxt "TFMMAIN.MITEXTSEP1.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.mitextsep2.caption
+msgctxt "TFMMAIN.MITEXTSEP2.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.mitextsep3.caption
+msgctxt "TFMMAIN.MITEXTSEP3.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.openpicturedialog.title
+msgid "Open existing image"
+msgstr ""
+
+#: tfmmain.tbimage.caption
+msgid "tbImage"
+msgstr ""
+
+#: tfmmain.tbimagediv1.caption
+msgid "tbImageDiv1"
+msgstr ""
+
+#: tfmmain.tbimagediv2.caption
+msgid "tbImageDiv2"
+msgstr ""
+
+#: tfmmain.tbtext.caption
+msgid "tbText"
+msgstr ""
+
+#: tfmmain.tbtextdiv2.caption
+msgid "tbTextDiv2"
+msgstr ""
+
+#: tfmmain.tbtexydiv1.caption
+msgid "tbTexyDiv1"
+msgstr ""
+
+#: tform1.caption
+msgid "Form1"
+msgstr ""
+
+#: udialogs.sbrightnesscontrastcaption
+msgctxt "udialogs.sbrightnesscontrastcaption"
+msgid "Brightness/Contrast"
+msgstr ""
+
+#: udialogs.scolorbalancecaption
+msgctxt "udialogs.scolorbalancecaption"
+msgid "Color Balance"
+msgstr ""
+
+#: ustrings.saboutboxcaption
+msgctxt "ustrings.saboutboxcaption"
+msgid "About %s"
+msgstr ""
+
+#: ustrings.sabouttabcaption
+msgctxt "ustrings.sabouttabcaption"
+msgid "About"
+msgstr ""
+
+#: ustrings.sbrightnesscontrastcaption
+msgctxt "ustrings.sbrightnesscontrastcaption"
+msgid "Brightness/Contrast"
+msgstr ""
+
+#: ustrings.sbuilddate
+msgid "Build Date: %s"
+msgstr ""
+
+#: ustrings.scolorbalancecaption
+msgctxt "ustrings.scolorbalancecaption"
+msgid "Color Balance"
+msgstr ""
+
+#: ustrings.screditstabcaption
+msgctxt "ustrings.screditstabcaption"
+msgid "Credits"
+msgstr ""
+
+#: ustrings.sfiledoesnotexist
+msgid "File \"%s\" doesn't exist."
+msgstr ""
+
+#: ustrings.sfpcversioncaption
+msgid "FPC Version: %s"
+msgstr ""
+
+#: ustrings.shistorytabcaption
+msgctxt "ustrings.shistorytabcaption"
+msgid "History"
+msgstr ""
+
+#: ustrings.sinfotabcaption
+msgctxt "ustrings.sinfotabcaption"
+msgid "Info"
+msgstr ""
+
+#: ustrings.slclversioncaption
+msgid "LCL Version: %s"
+msgstr ""
+
+#: ustrings.slicensetabcaption
+msgctxt "ustrings.slicensetabcaption"
+msgid "License"
+msgstr ""
+
+#: ustrings.sos
+msgid "OS: %s"
+msgstr ""
+
+#: ustrings.splatform
+msgid "Platform: %s"
+msgstr ""
+
+#: ustrings.sreplacequestion
+msgid "Replace this occurence of \"%s\"?"
+msgstr ""
+
+#: ustrings.ssearchstringnotfound
+msgctxt "ustrings.ssearchstringnotfound"
+msgid "Search string \"%s\" not found."
+msgstr ""
+
+#: ustrings.sversioncaption
+msgid "Version %s"
+msgstr ""
+
+#: ustrings.swidgetset
+msgid "WidgetSet: %s"
+msgstr ""
+

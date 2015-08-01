@@ -1,0 +1,148 @@
+object AboutBox: TAboutBox
+  Left = 481
+  Height = 341
+  Top = 292
+  Width = 420
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'AboutBox'
+  ClientHeight = 341
+  ClientWidth = 420
+  OnShow = FormShow
+  LCLVersion = '1.0.12.0'
+  object ProgramIcon: TImage
+    Left = 15
+    Height = 90
+    Top = 16
+    Width = 90
+    Center = True
+    Stretch = True
+  end
+  object lbProgramTitle: TLabel
+    Left = 125
+    Height = 22
+    Top = 16
+    Width = 96
+    Caption = 'lbProgramTitle'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbProgramVersion: TLabel
+    Left = 125
+    Height = 22
+    Top = 41
+    Width = 115
+    Caption = 'lbProgramVersion'
+    ParentColor = False
+  end
+  object lbHomePage: TLabel
+    Cursor = crHandPoint
+    Left = 125
+    Height = 22
+    Top = 91
+    Width = 84
+    Caption = 'lbHomePage'
+    Font.Color = clBlue
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = lbHomePageClick
+  end
+  object PageControl: TPageControl
+    Left = 15
+    Height = 194
+    Top = 128
+    Width = 389
+    ActivePage = tsAbout
+    TabIndex = 0
+    TabOrder = 0
+    object tsAbout: TTabSheet
+      Caption = 'About'
+      ClientHeight = 159
+      ClientWidth = 379
+      object mmAbout: TMemo
+        Left = 0
+        Height = 159
+        Top = 0
+        Width = 379
+        Align = alClient
+        Color = clBtnFace
+        ReadOnly = True
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+      end
+    end
+    object tsCredits: TTabSheet
+      Caption = 'Credits'
+      ClientHeight = 159
+      ClientWidth = 379
+      object mmCredits: TMemo
+        Left = 0
+        Height = 168
+        Top = 0
+        Width = 381
+        Align = alClient
+        Color = clBtnFace
+        ReadOnly = True
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+      end
+    end
+    object tsLicense: TTabSheet
+      Caption = 'License'
+      ClientHeight = 159
+      ClientWidth = 379
+      object mmLicense: TMemo
+        Left = 0
+        Height = 168
+        Top = 0
+        Width = 381
+        Align = alClient
+        Color = clBtnFace
+        ReadOnly = True
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+      end
+    end
+    object tsHistory: TTabSheet
+      Caption = 'History'
+      ClientHeight = 159
+      ClientWidth = 379
+      object mmHistory: TMemo
+        Left = 0
+        Height = 168
+        Top = 0
+        Width = 381
+        Align = alClient
+        Color = clBtnFace
+        ReadOnly = True
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+      end
+    end
+    object tsInfo: TTabSheet
+      Caption = 'Info'
+      ClientHeight = 159
+      ClientWidth = 379
+      object mmInfo: TMemo
+        Left = 0
+        Height = 168
+        Top = 0
+        Width = 381
+        Align = alClient
+        Color = clBtnFace
+        ReadOnly = True
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+      end
+    end
+  end
+  object lbCopyright: TLabel
+    Left = 125
+    Height = 22
+    Top = 66
+    Width = 77
+    Caption = 'lbCopyright'
+    ParentColor = False
+  end
+end

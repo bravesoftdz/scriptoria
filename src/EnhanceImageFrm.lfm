@@ -1,0 +1,271 @@
+object EnhanceImageForm: TEnhanceImageForm
+  Left = 415
+  Height = 345
+  Top = 220
+  Width = 680
+  BorderStyle = bsDialog
+  Caption = 'Enhance Image'
+  ClientHeight = 345
+  ClientWidth = 680
+  OnDestroy = FormDestroy
+  ShowHint = True
+  LCLVersion = '1.0.12.0'
+  object imOriginal: TImage
+    Left = 448
+    Height = 114
+    Top = 24
+    Width = 208
+    Center = True
+    Stretch = True
+  end
+  object imNew: TImage
+    Left = 448
+    Height = 114
+    Top = 159
+    Width = 208
+    Center = True
+    Stretch = True
+  end
+  object btCancel: TButton
+    Left = 565
+    Height = 25
+    Top = 296
+    Width = 91
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 3
+  end
+  object btOK: TButton
+    Left = 438
+    Height = 25
+    Top = 296
+    Width = 91
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 2
+  end
+  object btReset: TButton
+    Left = 24
+    Height = 25
+    Top = 296
+    Width = 91
+    Caption = 'Reset'
+    OnClick = btResetClick
+    TabOrder = 1
+  end
+  object PageControl: TPageControl
+    Left = 24
+    Height = 249
+    Top = 24
+    Width = 408
+    ActivePage = tbBightnessContrast
+    ShowTabs = False
+    TabIndex = 0
+    TabOrder = 0
+    Options = [nboHidePageListPopup]
+    object tbBightnessContrast: TTabSheet
+      Caption = 'tbBightnessContrast'
+      ClientHeight = 245
+      ClientWidth = 398
+      object lbBrightness: TLabel
+        Left = 19
+        Height = 22
+        Top = 35
+        Width = 74
+        Caption = 'Brightness:'
+        ParentColor = False
+      end
+      object edBrightness: TSpinEdit
+        Left = 311
+        Height = 33
+        Top = 30
+        Width = 60
+        MaxValue = 255
+        MinValue = -255
+        OnChange = edBrightnessChange
+        TabOrder = 0
+      end
+      object tbBrightness: TTrackBar
+        Left = 19
+        Height = 44
+        Top = 68
+        Width = 352
+        Max = 255
+        Min = -255
+        OnChange = tbBrightnessChange
+        Position = 0
+        TickStyle = tsNone
+        TabOrder = 1
+      end
+      object lbContrast: TLabel
+        Left = 19
+        Height = 22
+        Top = 131
+        Width = 62
+        Caption = 'Contrast:'
+        ParentColor = False
+      end
+      object edContrast: TSpinEdit
+        Left = 311
+        Height = 33
+        Top = 126
+        Width = 60
+        MaxValue = 255
+        MinValue = -255
+        OnChange = edContrastChange
+        TabOrder = 2
+      end
+      object tbContrast: TTrackBar
+        Left = 19
+        Height = 44
+        Top = 158
+        Width = 352
+        Max = 255
+        Min = -255
+        OnChange = tbContrastChange
+        Position = 0
+        TickStyle = tsNone
+        TabOrder = 3
+      end
+    end
+    object tbColorbalance: TTabSheet
+      Caption = 'tbColorbalance'
+      ClientHeight = 245
+      ClientWidth = 398
+      object tbRed: TTrackBar
+        Left = 107
+        Height = 44
+        Top = 62
+        Width = 200
+        Max = 255
+        Min = -255
+        OnChange = tbRedChange
+        Position = 0
+        TickStyle = tsNone
+        TabOrder = 3
+      end
+      object tbGreen: TTrackBar
+        Left = 107
+        Height = 44
+        Top = 123
+        Width = 200
+        Max = 255
+        Min = -255
+        OnChange = tbGreenChange
+        Position = 0
+        TickStyle = tsNone
+        TabOrder = 4
+      end
+      object tbBlue: TTrackBar
+        Left = 107
+        Height = 44
+        Top = 182
+        Width = 200
+        Max = 255
+        Min = -255
+        OnChange = tbBlueChange
+        Position = 0
+        TickStyle = tsNone
+        TabOrder = 5
+      end
+      object edRed: TSpinEdit
+        Left = 107
+        Height = 33
+        Top = 12
+        Width = 60
+        MaxValue = 255
+        MinValue = -255
+        OnChange = edRedChange
+        TabOrder = 0
+      end
+      object edGreen: TSpinEdit
+        Left = 177
+        Height = 33
+        Top = 12
+        Width = 60
+        MaxValue = 255
+        MinValue = -255
+        OnChange = edGreenChange
+        TabOrder = 1
+      end
+      object edBlue: TSpinEdit
+        Left = 247
+        Height = 33
+        Top = 12
+        Width = 60
+        MaxValue = 255
+        MinValue = -255
+        OnChange = edBlueChange
+        TabOrder = 2
+      end
+      object lbCyan: TLabel
+        Left = 30
+        Height = 22
+        Top = 73
+        Width = 66
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = 'Cyan'
+        ParentColor = False
+      end
+      object lbColorLevels: TLabel
+        Left = 11
+        Height = 22
+        Top = 17
+        Width = 85
+        Alignment = taRightJustify
+        Caption = 'Color Levels:'
+        ParentColor = False
+      end
+      object lbMagenta: TLabel
+        Left = 30
+        Height = 22
+        Top = 134
+        Width = 66
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = 'Magenta'
+        ParentColor = False
+      end
+      object lbYellow: TLabel
+        Left = 30
+        Height = 22
+        Top = 193
+        Width = 66
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = 'Yellow'
+        ParentColor = False
+      end
+      object lbRed: TLabel
+        Left = 318
+        Height = 22
+        Top = 73
+        Width = 66
+        AutoSize = False
+        Caption = 'Red'
+        ParentColor = False
+      end
+      object lbGreen: TLabel
+        Left = 318
+        Height = 22
+        Top = 134
+        Width = 66
+        AutoSize = False
+        Caption = 'Green'
+        ParentColor = False
+      end
+      object lbBlue: TLabel
+        Left = 318
+        Height = 22
+        Top = 193
+        Width = 66
+        AutoSize = False
+        Caption = 'Blue'
+        ParentColor = False
+      end
+    end
+  end
+end

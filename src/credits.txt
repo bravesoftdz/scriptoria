@@ -1,0 +1,10 @@
+People who have contributed to Scriptoria
+-----------------------------------------
+
+Core Developers:
+- João Marcelo S. Vaz
+
+Contributors:
+
+Acknowledgements:
+- Icons from Silk icon set 1.3 at http://www.famfamfam.com/lab/icons/silk/
